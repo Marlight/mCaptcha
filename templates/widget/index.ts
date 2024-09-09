@@ -29,7 +29,7 @@ export const registerVerificationEventHandler = (): void => {
   const verificationContainer = <HTMLElement>(
     document.querySelector(".widget__verification-container")
   );
-  verificationContainer.style.display = "flex";
+  // verificationContainer.style.display = "flex";
   workerPromise.then((worker: Worker) => {
     const btn = CONST.btn();
     btn.disabled = false;

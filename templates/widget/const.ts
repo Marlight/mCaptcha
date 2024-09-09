@@ -56,10 +56,10 @@ type messageTextReturn = {
   error: () => void;
 };
 
-export const BEFORE = "I'm not a robot";
-export const DURING = "Processing...";
-export const AFTER = "Verified!";
-export const ERROR = "Something went wrong";
+export const BEFORE = "Ich bin kein Roboter";
+export const DURING = "Verarbeite...";
+export const AFTER = "Verifiziert!";
+export const ERROR = "Irgendwas ist schief gelaufen";
 
 export const messageText = (): messageTextReturn => {
   const conatinerID = "widget__verification-text";

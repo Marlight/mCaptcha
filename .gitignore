@@ -1,7 +1,7 @@
 /target
 tarpaulin-report.html
 .env
-.env
+.idea
 cobertura.xml
 prod/
 node_modules/
